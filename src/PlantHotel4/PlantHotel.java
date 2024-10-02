@@ -1,4 +1,4 @@
-
+package PlantHotel4;
 
 public class PlantHotel {
     public PlantHotel() {

@@ -1,3 +1,5 @@
+package PlantHotel4;
+
 public class Cacti extends Plant{
     private String gender;
 
@@ -33,9 +35,9 @@ public class Cacti extends Plant{
 
         return
             this.getName()
-                    +" is a " + PlantTypes.CACTI.getTypeName() +" and is " + this.getHeight() +
-                    " meters tall.\n" + pronoun +verb + +PlantTypes.CACTI.getAmount() +
-                    " liters of " +DrinkTypes.MINERALWATER.getTypeName() +" every day.";
+            +" is a " + PlantTypes.CACTI.getTypeName() +" and is " + this.getHeight() +
+            " meters tall.\n" + pronoun +verb + +PlantTypes.CACTI.getAmount() +
+            " liters of " +DrinkTypes.MINERALWATER.getTypeName() +" every day.";
     }
 
 }

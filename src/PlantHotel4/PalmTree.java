@@ -1,3 +1,5 @@
+package PlantHotel4;
+
 public class PalmTree extends Plant{
     private String gender;
 
@@ -27,9 +29,9 @@ public class PalmTree extends Plant{
 
         return
             this.getName()
-                    +" is a " + PlantTypes.PALM.getTypeName() +" and is " + this.getHeight() +
-                    " meters tall.\n" + pronoun +verb +(PlantTypes.PALM.getAmount() * getHeight()) +
-                    " liters of " +DrinkTypes.TAPWATER.getTypeName() +" every day.";
+            +" is a " + PlantTypes.PALM.getTypeName() +" and is " + this.getHeight() +
+            " meters tall.\n" + pronoun +verb +(PlantTypes.PALM.getAmount() * getHeight()) +
+            " liters of " +DrinkTypes.TAPWATER.getTypeName() +" every day.";
     }
 
 }

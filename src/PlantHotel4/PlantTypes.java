@@ -1,3 +1,5 @@
+package PlantHotel4;
+
 public enum PlantTypes {
     CACTI("Cactus", 0.02),
     PALM("Palm tree", 0.5),

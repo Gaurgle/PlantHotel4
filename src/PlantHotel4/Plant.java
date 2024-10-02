@@ -1,23 +1,25 @@
+package PlantHotel4;
+
 public abstract class Plant implements IsetGender{
     private String name;
     private double height;
     private String gender;
     private PlantTypes plantType;
 
-        public Plant(String name, double height, boolean isFemale, PlantTypes plantType) {
+    public Plant(String name, double height, boolean isFemale, PlantTypes plantType) {
         this.name = name;
         this.height = height;
         this.plantType = plantType;
         setGender(isFemale);
     }
 
-        // overloaded constructor för ickebinära plantor
-        public Plant(String name, double height, PlantTypes plantType) {
-            this.name = name;
-            this.height = height;
-            this.plantType = plantType;
-            this.gender = "non-binary";
-        }
+    // overloaded constructor för ickebinära plantor
+    public Plant(String name, double height, PlantTypes plantType) {
+        this.name = name;
+        this.height = height;
+        this.plantType = plantType;
+        this.gender = "non-binary";
+    }
 
     public String getName() {
         return name;
@@ -44,7 +46,7 @@ public abstract class Plant implements IsetGender{
         this.gender = gender;
     }   // behövs ej
 
-    // abstrakt metod
+    // abstrakt metod, polymorfism.
     public abstract String getDrinkFormula();
 
 }

@@ -1,3 +1,5 @@
+package PlantHotel4;
+
 public enum DrinkTypes {
     TAPWATER("tapwater"),
     PROTEINDRINK("protein drink"),
@@ -7,7 +9,6 @@ public enum DrinkTypes {
     DrinkTypes(String typeName) {
         this.typeName = typeName;
     }
-
 
     public String getTypeName() {
         return typeName;

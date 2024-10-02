@@ -1,3 +1,5 @@
+package PlantHotel4;
+
 public class CarnivorousPlant extends Plant {
     private String gender;
     private final double baseAmount;
@@ -29,10 +31,10 @@ public class CarnivorousPlant extends Plant {
 
         return
             this.getName()
-                    +" is a " + PlantTypes.CARNIVOROUSPLANT.getTypeName() +" and is " + this.getHeight() +
-                    " meters tall.\n" + pronoun +verb +
-                    (baseAmount + (PlantTypes.CARNIVOROUSPLANT.getAmount() * getHeight())) +
-                    " liters of" +DrinkTypes.PROTEINDRINK.getTypeName() +" every day.";
+            +" is a " + PlantTypes.CARNIVOROUSPLANT.getTypeName() +" and is " + this.getHeight() +
+            " meters tall.\n" + pronoun +verb +
+            (baseAmount + (PlantTypes.CARNIVOROUSPLANT.getAmount() * getHeight())) +
+            " liters of" +DrinkTypes.PROTEINDRINK.getTypeName() +" every day.";
     }
 
 }
