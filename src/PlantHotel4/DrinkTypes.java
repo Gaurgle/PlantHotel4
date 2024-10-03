@@ -1,7 +1,7 @@
 package PlantHotel4;
 
 public enum DrinkTypes {
-    TAPWATER("tapwater"),
+    TAPWATER("tap water"),
     PROTEINDRINK("protein drink"),
     MINERALWATER("mineral water"),;
 

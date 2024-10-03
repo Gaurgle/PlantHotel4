@@ -11,6 +11,8 @@ public class PlantProgram {
     private Map<String, Plant> plantHotel = new HashMap<>();
 
     public PlantProgram() {
+
+        // instansiera plantobjekt i hashmap.
         plantHotel.put("igge", new Cacti("Igge", 0.2, false));
         plantHotel.put("laura", new PalmTree("Laura", 5, true));
         plantHotel.put("meatloaf", new CarnivorousPlant("Meatloaf", 0.7, false));
@@ -22,6 +24,7 @@ public class PlantProgram {
 
         StringBuilder plantList = new StringBuilder("Current residents of the plant hotel:\n\n");
 
+        // loopa genom hashmap
         for (Map.Entry<String, Plant> entry : plantHotel.entrySet()) {
             Plant plant = entry.getValue();
             plantList.append(plant.getName())
