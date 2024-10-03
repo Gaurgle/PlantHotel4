@@ -8,7 +8,7 @@ public class PlantProgram {
 
 
 //    //// <<< START: HashMap Version: (bättre?)
-  /*  private Map<String, Plant> plantHotel = new HashMap<>();
+    private Map<String, Plant> plantHotel = new HashMap<>();
 
     public PlantProgram() {
         plantHotel.put("igge", new Cacti("Igge", 0.2, false));
@@ -53,12 +53,11 @@ public class PlantProgram {
         // kör plantans getDrinkFormula (toString)
         JOptionPane.showMessageDialog(null, selectedPlant.getDrinkFormula());
 
-*/
 //        //// <<< STOP
 
 
         //// >>> START: Switch version:
-    public void checkPlant() {
+/*    public void checkPlant() {
         String name = JOptionPane.showInputDialog("Enter PlantHotel4pkg.Plant Name");
 
         // enhanced switch
@@ -78,10 +77,10 @@ public class PlantProgram {
         if (selectedPlant != null) {
             JOptionPane.showMessageDialog(null, selectedPlant.getDrinkFormula());
         }
-    }
+    }*/
         //// <<< STOP (ta bort näst sista "}" vid denna version
 
 
-//    }
+    }
 }
 
