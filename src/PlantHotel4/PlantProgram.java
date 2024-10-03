@@ -83,7 +83,5 @@ public class PlantProgram {
     }*/
         //// <<< STOP (ta bort näst sista "}" vid denna version
 
-
     }
 }
-

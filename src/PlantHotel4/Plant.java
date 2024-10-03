@@ -13,7 +13,7 @@ public abstract class Plant implements IsetGender{
         setGender(isFemale);
     }
 
-    // overloaded constructor för ickebinära plantor
+    // overloaded constructor för icke-binära plantor
     public Plant(String name, double height, PlantTypes plantType) {
         this.name = name;
         this.height = height;
