@@ -15,7 +15,7 @@ public class PlantProgram {
         plantHotel.put("laura", new PalmTree("Laura", 5, true));
         plantHotel.put("meatloaf", new CarnivorousPlant("Meatloaf", 0.7, false));
         plantHotel.put("olof", new PalmTree("Olof", 1.0, false));
-        plantHotel.put("esmeralda", new Cacti("Esmeralda", 0.9));       // <- en iicke-binär planta!
+        plantHotel.put("esmeralda", new Cacti("Esmeralda", 0.9));       // <- en icke-binär planta!
     }
 
     public void checkPlant() {
