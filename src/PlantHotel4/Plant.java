@@ -24,18 +24,18 @@ public abstract class Plant implements IsetGender{
     public String getName() {
         return name;
     }
-    public void setName(String name) {
-        this.name = name;
-    }           // behövs ej
     public double getHeight() {
         return height;
     }
-    public void setHeight(double height) {
-        this.height = height;
-    }   // behövs ej
     public PlantTypes getPlantType() {
         return plantType;
     }
+    public void setName(String name) {
+        this.name = name;
+    }           // behövs ej
+    public void setHeight(double height) {
+        this.height = height;
+    }   // behövs ej
 
     @Override
     public String getGender() {

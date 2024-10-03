@@ -8,7 +8,7 @@ public class PlantProgram {
 
 
 //    //// <<< START: HashMap Version: (bättre?)
-    private Map<String, Plant> plantHotel = new HashMap<>();
+  /*  private Map<String, Plant> plantHotel = new HashMap<>();
 
     public PlantProgram() {
         plantHotel.put("igge", new Cacti("Igge", 0.2, false));
@@ -53,20 +53,20 @@ public class PlantProgram {
         // kör plantans getDrinkFormula (toString)
         JOptionPane.showMessageDialog(null, selectedPlant.getDrinkFormula());
 
-
+*/
 //        //// <<< STOP
 
 
         //// >>> START: Switch version:
-/*    public void checkPlant() {
+    public void checkPlant() {
         String name = JOptionPane.showInputDialog("Enter PlantHotel4pkg.Plant Name");
 
         // enhanced switch
-        PlantHotel4pkg.Plant selectedPlant = switch (name.toLowerCase()) {
-            case "igge" -> new PlantHotel4pkg.Cacti("Igge", 0.2, false);
-            case "laura" -> new PlantHotel4pkg.PalmTree("Laura", 0.5, true);
-            case "meatloaf" -> new PlantHotel4pkg.CarnivorousPlant("Meatoaf", 0.75, false);
-            case "olof" -> new PlantHotel4pkg.PalmTree("Olof", 1.0, false);
+        Plant selectedPlant = switch (name.toLowerCase()) {
+            case "igge" -> new Cacti("Igge", 0.2, false);
+            case "laura" -> new PalmTree("Laura", 0.5, true);
+            case "meatloaf" -> new CarnivorousPlant("Meatoaf", 0.75, false);
+            case "olof" -> new PalmTree("Olof", 1.0, false);
             default -> {
                 System.out.println(name + " is not a plant here at this hotel");
                 String message = "We're sorry, " + name + " is not a guest here at our hotel";
@@ -78,10 +78,10 @@ public class PlantProgram {
         if (selectedPlant != null) {
             JOptionPane.showMessageDialog(null, selectedPlant.getDrinkFormula());
         }
-    }*/
+    }
         //// <<< STOP (ta bort näst sista "}" vid denna version
 
 
-    }
+//    }
 }
 

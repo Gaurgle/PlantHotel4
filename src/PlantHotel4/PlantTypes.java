@@ -4,6 +4,7 @@ public enum PlantTypes {
     CACTI("Cactus", 0.02),
     PALM("Palm tree", 0.5),
     CARNIVOROUSPLANT("Carnivorous plant", 0.2);
+    // +alla växter i världen
 
     final String typeName;
     final double amount;
